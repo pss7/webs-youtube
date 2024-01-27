@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Main from '../components/section/Main';
 
-const Gsap = () => {
+const Gasp = () => {
   return (
-    <div>Gsap</div>
+    <Main>
+      Gasp
+    </Main>
   )
 }
 
-export default Gsap
+export default Gasp
