@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from '../components/section/Main';
 
-const Gasp = () => {
+const Gsap = () => {
     return (
         <Main
             title="GSAP 사이트"
@@ -11,4 +11,4 @@ const Gasp = () => {
     )
 }
 
-export default Gasp
+export default Gsap

@@ -1,7 +1,7 @@
 import React from 'react';
 import Main from '../components/section/Main';
 
-const Port = () => {
+const Portfolio = () => {
     return (
         <Main
             title="포트폴리오 사이트"
@@ -11,4 +11,4 @@ const Port = () => {
     )
 }
 
-export default Port
+export default Portfolio

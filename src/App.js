@@ -8,7 +8,7 @@ const Developer = lazy(() => import('./pages/Developer'));
 const Webd = lazy(() => import('./pages/Webd'));
 const Website = lazy(() => import('./pages/Website'));
 const Gsap = lazy(() => import('./pages/Gsap'));
-const Port = lazy(() => import('./pages/Port'));
+const Port = lazy(() => import('./pages/Portfolio'));
 const Youtube = lazy(() => import('./pages/Youtube'));
 const Channel = lazy(() => import('./pages/Channel'));
 const Video = lazy(() => import('./pages/Video'));
