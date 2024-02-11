@@ -11,6 +11,7 @@ section {
 
     @media (max-width : 800px) {
         padding: 20px;
+        margin-top: 90px;
     }
 
     h2 {
@@ -36,10 +37,11 @@ section {
 
 }
 
+
 //섹션 로딩 소스
 .isLoading {
     opacity: 0;
-    transform: opacity .5s;
+    transition: opacity .5s;
 }
 
 .isLoaded {

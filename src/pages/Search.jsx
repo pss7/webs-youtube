@@ -14,7 +14,7 @@ const Search = () => {
     useEffect(() => {
         setVideos([]);
         fetchVidoes(searchId);
-        setLoading(true);
+        setLoading(false);
     }, [searchId]);
 
     const fetchVidoes = (query, pageToken = '') => {
