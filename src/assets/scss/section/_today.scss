@@ -1,7 +1,13 @@
+#todayPage {
+    .today__inner {
+        margin-bottom: 3.125rem;
+    }
+}
+
 .today__inner {
     display: flex;
     background-color: var(--black100);
-    margin-bottom: 3.125rem;
+    margin-bottom: 2.5rem;
 }
 
 .today__thumb {
@@ -90,8 +96,16 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
+    .today__inner {
+        margin-bottom: 0;
+    }
+}
 
+@media (max-width: 800px) {
+    .today__inner {
+        margin-bottom: 2.3rem;
+    }
     #todayPage,
     #today {
         margin-top: 80px;
