@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const VideoSearch = ({ videos }) => {
     return (
@@ -29,14 +29,3 @@ const VideoSearch = ({ videos }) => {
 }
 
 export default VideoSearch
-
-/*
-
-1.const VideoSearch = ({ videos }) => {}
->{ videos } 받아온다.
-
-2.map() 반복문 사용
-
-3.데이터 적용
-
-*/
